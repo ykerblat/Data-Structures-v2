@@ -9,7 +9,7 @@ var cheerio = require('cheerio');
 
 // load the text file into a variable, `content`
 // this is the text file that was created from last week's assignment
-var content = fs.readFileSync('data/aa88.txt');
+var content = fs.readFileSync('aa88.txt');
 
 
 // Load `relevant content` into a cheerio object
