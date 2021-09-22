@@ -1,4 +1,4 @@
-<h1>Weekly Assignment #3 - Data clean-up </h1>
+<h1>Weekly Assignment #3 - API data processing and clean-up </h1>
 
 <h2> Important setup info </h2> 
 A couple of things were required before working on the file that was parsed in Week 02:
