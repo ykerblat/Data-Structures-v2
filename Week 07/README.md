@@ -20,7 +20,7 @@ In this second part (see below for the [wa04b.js](https://github.com/ykerblat/Da
 
 **Part C**
 
-Finally, given that the table is being populated "invisibly" (by using node js), the 3rd part was used for quality control by using the file [wa04c.js] (https://github.com/ykerblat/Data-Structures-v2/blob/main/Week%2007/wa04c.js). Here we need to ensure that the data we populated previously was correctly entered and corresponds to the JSON file content.
+Finally, given that the table is being populated "invisibly" (by using node js), the 3rd part was used for quality control by using the file [wa04c.js](https://github.com/ykerblat/Data-Structures-v2/blob/main/Week%2007/wa04c.js). Here we need to ensure that the data we populated previously was correctly entered and corresponds to the JSON file content.
 
 <img width="1001" alt="Screen Shot 2021-10-19 at 22 22 45" src="https://user-images.githubusercontent.com/82052220/138019036-49c447a9-c2c4-4525-a98d-5d8342e7387c.png">
 
