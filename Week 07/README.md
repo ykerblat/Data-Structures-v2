@@ -5,8 +5,7 @@ To initiate this exercise:
 (1) a new AWS account had to be created from scratch (this time as root user **_not_** as an IAM user), followed by the creation of a new AWS Cloud 9 environment dedicated to this assignment. 
 (2) In addition, an RDS instance database (via AWS) has been setup, and we've also adjusted the security parameters accordingly to include an additional rule.
 
-_(em) The starter code (see below for more details) was provided to faciliate the creation of a database with the aa data (by using directly the JSON file) (em).
-_
+The starter code (see below for more details) was provided to faciliate the creation of a database with the aa data (by using directly the JSON file).
 
 **Part A**
 
