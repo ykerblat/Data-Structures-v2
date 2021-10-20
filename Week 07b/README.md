@@ -14,7 +14,7 @@ Based on the information/suggestions provided by the starter code, I managed to 
 <img width="1058" alt="Screen Shot 2021-10-20 at 15 27 43" src="https://user-images.githubusercontent.com/82052220/138159187-1ccfccb9-5a2c-4b23-9262-dac3cc38405c.png">
 
 **Step 3**
-Finally, after we are able to link the 2 servers that are internal to AWS by modifying the IAM property (and after confirming that both servers are linked) - we can push the data to populate our SQL table (and verified through DynamoDB). For this purpose, to ensure all the rows are captured and stored, a loop is created by using the 'async' function so that we can push all musicblog entries at once - see below.
+Finally, after we are able to link the 2 servers that are internal to AWS by modifying the IAM property (and after confirming that both servers are linked) - we can push the data to populate our SQL table (and verified through DynamoDB). For this purpose, to ensure all the rows are captured and stored in one iteration, a loop is created by using the 'async' function so that we can push all musicblog entries at once - see below.
 
 <img width="488" alt="Screen Shot 2021-10-20 at 15 28 04" src="https://user-images.githubusercontent.com/82052220/138159211-edff0171-48a4-40b4-8945-5a7f4922b902.png">
 
