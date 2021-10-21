@@ -11,4 +11,8 @@ In order to obtain and visualize the "console.table", it's important to adapt th
 
 **Part B -  Process blog - adding further data to DynamoDB**
 
+On DynamoDB, it's important to remember that (1) we can only query through the primary key (in most of the cases), and that partition key need to be unique.
+For shaping the query method - important to refer to this [query page](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html) to articulate the 
+
+
 
