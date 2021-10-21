@@ -23,4 +23,5 @@ Finally, after we are able to link the 2 servers that are internal to AWS by mod
 
 Finally, to make sure all the data was correctly exported/imported, we can use DynamoDB to confirm that the process blog table has been correctly populated - see below.
 
-<img width="1277" alt="Screen Shot 2021-10-20 at 15 01 06" src="https://user-images.githubusercontent.com/82052220/138159583-9448cac8-b9ea-4a72-ae2c-8d4272f39931.png">
+<img width="993" alt="Screen Shot 2021-10-21 at 00 20 00" src="https://user-images.githubusercontent.com/82052220/138210976-d8d3c38b-945b-4477-98c9-528e25c9d77c.png">
+
