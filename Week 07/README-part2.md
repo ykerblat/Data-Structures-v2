@@ -11,7 +11,7 @@ I'm re-attaching the initial schema below to facilitate cross-referencing - see 
 
 Based on the information/suggestions provided by the starter code, I managed to find a method to insert the data that is intended for the process blog. Once the template is created, it's easy to discern/establish which data points are string, booleans or number values - which allows me to push the information into the newly created object (MusicDiscovery). By console logging, we are able to confirm that the information exists, was correctly inserted and retains the intended sequence/structure - see below.
 
-<img width="470" alt="Screen Shot 2021-10-20 at 17 52 45" src="https://user-images.githubusercontent.com/82052220/138210572-6e3b1424-cdf1-4819-96c9-5e72df260344.png">
+<img width="1042" alt="Screen Shot 2021-10-21 at 00 15 11" src="https://user-images.githubusercontent.com/82052220/138210714-974a9526-3606-402d-8228-22127ce68769.png">
 
 
 **Step 3**
