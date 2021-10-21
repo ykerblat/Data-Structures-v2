@@ -11,7 +11,8 @@ I'm re-attaching the initial schema below to facilitate cross-referencing - see 
 
 Based on the information/suggestions provided by the starter code, I managed to find a method to insert the data that is intended for the process blog. Once the template is created, it's easy to discern/establish which data points are string, booleans or number values - which allows me to push the information into the newly created object (MusicDiscovery). By console logging, we are able to confirm that the information exists, was correctly inserted and retains the intended sequence/structure - see below.
 
-<img width="1058" alt="Screen Shot 2021-10-20 at 15 27 43" src="https://user-images.githubusercontent.com/82052220/138159187-1ccfccb9-5a2c-4b23-9262-dac3cc38405c.png">
+<img width="470" alt="Screen Shot 2021-10-20 at 17 52 45" src="https://user-images.githubusercontent.com/82052220/138210572-6e3b1424-cdf1-4819-96c9-5e72df260344.png">
+
 
 **Step 3**
 Finally, after we are able to link the 2 servers that are internal to AWS by modifying the IAM property (and after confirming that both servers are linked) - we can push the data to populate our SQL table (and verified through DynamoDB). For this purpose, to ensure all the rows are captured and stored in one iteration, a loop is created by using the 'async' function so that we can push all musicblog entries at once - see below.
