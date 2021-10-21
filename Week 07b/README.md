@@ -1,5 +1,5 @@
 
-**Part A - AA Locations - confirming data content with initial SQL query (via console.table)**
+**Part 1 - AA Locations - confirming data content with initial SQL query (via console.table)**
 
 In this part, we are using the starter code to get more familiar with a standard/oft-cited SQL query to select the data that was extracted from the original AA website, and input it in a table (by using the cTable function 'console.table) - see below.
 
@@ -9,7 +9,7 @@ In order to obtain and visualize the "console.table", it's important to adapt th
 
 <img width="307" alt="Screen Shot 2021-10-20 at 17 53 26" src="https://user-images.githubusercontent.com/82052220/138178073-bae5a2b1-0c95-4999-b84e-c200e8efe660.png">
 
-**Part B -  Process blog - adding further data to DynamoDB**
+**Part 2 -  Process blog - adding further data to DynamoDB**
 
 On DynamoDB, it's important to remember that (1) we can only query through the primary key (in most of the cases), and that partition key need to be unique.
 For shaping the query method - important to refer to this [query page](https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html) to articulate as precisely as possible the scope and focus of the query itself.
