@@ -12,7 +12,7 @@ You will submit sketches, materials, and documentation for your designs, which s
 <b> Submission requirements </b>
 Update your GitHub repository with the relevant file(s). Use GitHub markdown to document your sketches and other materials. In Canvas, submit the URL of the specific location of this work within your data-structures GitHub repository.
 
-<h2> Yann Kerblat - Final designs for Data Structure Final projects x3 </h2>
+<h2> Yann Kerblat - Data Structure - Prospective designs sketches for final projects interfaces (x3) </h2>
 
 <h3> Overhaul of AA Meetings Website </h3>
 
