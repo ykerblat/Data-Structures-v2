@@ -1,4 +1,4 @@
-<h2> Assignment </h2>
+<h2> Final Assignments - Design instructions </h2>
 You will design three interfaces for visualizations for your three data sources (AA, process blog, and sensors). NOTE: there is no coding in this assignment. This is strictly a design exercise; the coding will be done for your final assignment submissions.
 
 You will submit sketches, materials, and documentation for your designs, which should include (at a minimum) the following information for each of the three designs for final assignments 1, 2, and 3:
