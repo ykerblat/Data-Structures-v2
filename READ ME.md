@@ -17,7 +17,14 @@ Update your GitHub repository with the relevant file(s). Use GitHub markdown to 
 <h3> Overhaul of AA Meetings Website </h3>
 
 
+![AA - meetings](https://user-images.githubusercontent.com/82052220/141722177-7ccd0519-4570-441c-93b5-113830f0010c.png)
+
+
 <h3> Process Blog - Music Discoveries via Spotify</h3>
+
+![Process blog](https://user-images.githubusercontent.com/82052220/141722195-21b59b8b-9f01-45b0-a801-8b3058f286e3.png)
 
 
 <h3> Sensor data experiment - Kitchen temp vs. Outside temp </h3>
+
+![Sensor app](https://user-images.githubusercontent.com/82052220/141722187-75fd3d25-eb77-4097-89ef-cff69c18b076.png)
