@@ -16,20 +16,23 @@ Update your GitHub repository with the relevant file(s). Use GitHub markdown to 
 
 <h3> Overhaul of AA Meetings Website </h3>
 
-![AA - meetings](https://user-images.githubusercontent.com/82052220/141722177-7ccd0519-4570-441c-93b5-113830f0010c.png)
-
 I am hoping to use a city-level map of Manhattan to display the active meetings and their corresponding locations. On right-hand side column, there is a hierarchy of filters/check boxes that the user can use to narrow the query. First, the viewer could filter out the target zone (and its respective zipcodes assigned to each zone), followed by the desire days of the week (multiple choices possible). Finally, a double-entry slider is added at the end in case the viewer needs to also narrow down specific time slots. Once 1 or many of these filters are activated, the map will display the georeferenced meeting sites, and a click will provde additional information per meeting site.
+
+![AA - meetings](https://user-images.githubusercontent.com/82052220/141722177-7ccd0519-4570-441c-93b5-113830f0010c.png)
 
 
 <h3> Process Blog - Music Discoveries via Spotify</h3>
 
-![Process blog](https://user-images.githubusercontent.com/82052220/141722195-21b59b8b-9f01-45b0-a801-8b3058f286e3.png)
+In this database, I'm recording songs that have caught my attention from the Spotify "Discover Weekly" automated playlist (a playlist which is randomly generated on a weekly basis based on my musical preferences and listening habits). In other words, every time I hear a song that I appreciated, I bookmark it in a separate playlist. I will be recording and tracking basic information and will use the process blog to maintain a record keeping mecahnism (name of the song, duration, country origin, name of the artist, etc.).
 
-In this database, bread 'type' (wheat or white) is the primary key and 'time spent' is the secondary key. By filtering the 2, you will pull up an entry that shows the data within that entry (name, ingredients, result recordings) as well as the drawing of the bread. I hope to integrate some aesthetic elements that are hand drawn within the viz itself to make it all feel like my real bread journal does.
+In this databse, the "session type" (day or night) will be the primary key and "dtt" (day + time in numeric valies) will be my sort key. I was inspired by online music applications that include a listening record dashboard. I will try to keep this user interface as simple and minimalist as possible. For quality assurance purposes, a "summary table" will also be inserted to display the "raw data".
+
+
+![Process blog](https://user-images.githubusercontent.com/82052220/141722195-21b59b8b-9f01-45b0-a801-8b3058f286e3.png)
 
 
 <h3> Sensor data experiment - Kitchen temp vs. Outside temp </h3>
 
-![Sensor app](https://user-images.githubusercontent.com/82052220/141722187-75fd3d25-eb77-4097-89ef-cff69c18b076.png)
+Based on the data that will be extracted from the sensor, I will record every 2 hours a given temperature record in my kitchen and compare these results with the outside temperature during that same timeslot. I'm curious to see if there will be any daily patterns (i.e. during specific hours) when the temperatures outside and in my kitchen converge (or diverge).
 
-Using the data that I will take from the sensor, I will record and map each 24 hour period of the temperature in my bedroom and show the results in the context of my sleep patterns. The furnace in my room gets so hot and dry, I inevitably wake up and open the window, causing the temperature to drop. I hope to show small multiples to reveal a pattern, and maybe do an average scale to show it all at a glance.
+![Sensor app](https://user-images.githubusercontent.com/82052220/141722187-75fd3d25-eb77-4097-89ef-cff69c18b076.png)
