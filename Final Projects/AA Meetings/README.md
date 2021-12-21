@@ -4,7 +4,7 @@ Objective:  overview of use/purpose.
 
 ## Instructions
 
-An in-depth paragraph about your project and overview of use.
+You will expand on weekly assignments 1, 2, 3, 4, 6, 7, and 10 to scrape all ten zones of New York's AA Meeting List to capture, clean, and store all meetings in Manhattan (zones one through ten). The meetings data should be stored in PostgreSQL and queried using the `pg` module in Node. You will use [Leaflet](https://leafletjs.com/examples/quick-start/) to display relevant meetings as map markers with popups that show all relevant information about the meeting(s) at each marker. [Here's an example of a submission in a previous class](http://www.jaimetanner.com/main/18ukyau9e5ai0f9dfklrsuum4ld4rz). 
 
 ## Overall Process
 
@@ -12,6 +12,9 @@ An in-depth paragraph about your project and overview of use.
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
+
+![image](https://user-images.githubusercontent.com/82052220/146943016-4fbe082e-01fa-478d-a11f-db9e1407d980.png)
+
 
 ### Preliminary designs
 
