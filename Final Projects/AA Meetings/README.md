@@ -1,8 +1,8 @@
-# Project Title
+# AA Meetings
 
-Simple overview of use/purpose.
+Objective:  overview of use/purpose.
 
-## Description
+## Instructions
 
 An in-depth paragraph about your project and overview of use.
 
