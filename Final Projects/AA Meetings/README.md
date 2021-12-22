@@ -13,11 +13,11 @@ Objective:  The objective of this project was to scrape, extract and re-format a
 
 <strong> Step 1:</strong> Parsing through the aa websites, geographical AA meeting locations (referred as "addresses" in this/previous documentation) and meeting information were extracted. Thanks to the [TAMU API](https://geoservices.tamu.edu/Services/Geocode/WebService/), we are able to georeference each each AA meeting locations by matching these with site-specfiic, precise lat-long coordinates to facilitate the mapping on a given map. This information was then encoded into a PostGresQL database via Cloud9 (AWS).
 
-The following code is used to structure SQL query to select the data preiously extracted from the original AA website, and insert it in a DB table - see below.
+The following code is used to structure the SQL query to select the data preiously extracted from the original AA website, and insert it in a DB table - see below.
+
 ![image](https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png)
 
 ![image](https://user-images.githubusercontent.com/82052220/147167161-8149ee58-ffa6-46e4-a9df-e7000df0a974.png)
-
 
 
 To ensure the correct data is adequately inserted and well structured, the cTable function is used for quality assurance purposes and to visualize the resulting "console.table" - see below.
