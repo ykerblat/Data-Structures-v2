@@ -1,7 +1,7 @@
 # AA Meetings project
 ### by Yann Kerblat
 
-Objective:  The objective of this project was to scrape, extract and re-format all the data from the previous AA website and re-calibrate the interface as well as the website into a more intuitive and user-friendly application.
+Objective:  The objective of this project was to scrape, extract and re-format all the data from the previous AA website and re-calibrate the interface into a more intuitive and user-friendly application.
 
 ## Instructions
 
