@@ -17,13 +17,9 @@ The following code is used to structure the SQL query to select the data preious
 
 <img src="https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png" width="500" height="400">
 
-To ensure the correct data is adequately inserted and well structured, the cTable function is used for quality assurance purposes and to visualize the resulting "console.table" - see below.
+To ensure the correct data is adequately inserted and well structured, the cTable function is used for quality assurance purposes and to visualize the resulting "console.table". Once the database that was setup previously is activated, below is a sample of what I am able to query.
 
 ![image](https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png)
-
-
-![image](https://user-images.githubusercontent.com/82052220/146943016-4fbe082e-01fa-478d-a11f-db9e1407d980.png)
-
 
 ### Preliminary designs
 
