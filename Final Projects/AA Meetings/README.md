@@ -17,9 +17,13 @@ The following code is used to structure the SQL query to select the data preious
 
 ![image](https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png)
 
-![image](https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png)
-{:height="50%" width="50%"}
+![image](https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png){:height="50%" width="50%"}
 
+![image](https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png)
+
+<img src="https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png" width="100 height="100>
+
+<!-- <img src="https://your-image-url.type" width="100" height="100"> -->
 
 To ensure the correct data is adequately inserted and well structured, the cTable function is used for quality assurance purposes and to visualize the resulting "console.table" - see below.
 
