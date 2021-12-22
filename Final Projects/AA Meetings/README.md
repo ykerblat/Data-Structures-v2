@@ -18,8 +18,7 @@ The following code is used to structure SQL query to select the data preiously e
 
 To ensure the correct data is adequately inserted and well structured, the cTable function is used for quality assurance purposes and to visualize the resulting "console.table" - see below.
 
-![image](https://user-images.githubusercontent.com/82052220/146996049-9facdbf5-3861-4eb8-bdea-533a0474e832.png)
-
+![image](https://user-images.githubusercontent.com/82052220/147167099-4dce33f9-8990-42c8-8386-c14d86c4e28e.png)
 
 ![image](https://user-images.githubusercontent.com/82052220/146943016-4fbe082e-01fa-478d-a11f-db9e1407d980.png)
 
