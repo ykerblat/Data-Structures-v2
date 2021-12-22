@@ -15,12 +15,15 @@ Objective:  The objective of this project was to scrape, extract and re-format a
 
 The following code is used to structure the SQL query to select the data preiously extracted from the original AA website, and insert it in a DB table - see below.
 
-![image](https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png)
+![image](https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png)
 
-![image](https://user-images.githubusercontent.com/82052220/147167161-8149ee58-ffa6-46e4-a9df-e7000df0a974.png)
+![image](https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png)
+{:height="50%" width="50%"}
 
 
 To ensure the correct data is adequately inserted and well structured, the cTable function is used for quality assurance purposes and to visualize the resulting "console.table" - see below.
+
+![image](https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png)
 
 
 ![image](https://user-images.githubusercontent.com/82052220/146943016-4fbe082e-01fa-478d-a11f-db9e1407d980.png)
