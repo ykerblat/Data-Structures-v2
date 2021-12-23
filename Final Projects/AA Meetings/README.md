@@ -21,7 +21,7 @@ To ensure the correct data is adequately inserted and well structured, the cTabl
 
 <!-- ![image](https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png) -->
 
-<img src="https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png" width="500" height="400">
+<img src="https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png" width="500" height="auto">
 
 
 ### Preliminary designs
