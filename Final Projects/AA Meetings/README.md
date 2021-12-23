@@ -22,7 +22,19 @@ To ensure the correct data is adequately inserted and well structured, the cTabl
 <img src="https://user-images.githubusercontent.com/82052220/147167141-cb79845c-bb0f-425b-ac99-72b2a0d54ce0.png" width="500" height="auto">
 
 
-### Preliminary designs
+### Preliminary design
+
+Below is a sample of what I had in mind for this application. From an information design perspective, what was important in this preliminary mockup are the following items:
+* I
+* 
+
+
+I am hoping to use a city-level map of Manhattan to display the active meetings and their corresponding locations. On right-hand side column, there is a hierarchy of filters/check boxes that the user can use to narrow the query. First, the viewer could filter out the target zone (and its respective zipcodes assigned to each zone), followed by the desire days of the week (multiple choices possible). Finally, a double-entry slider is added at the end in case the viewer needs to also narrow down specific time slots. Once 1 or many of these filters are activated, the map will display the georeferenced meeting sites, and a click will provde additional information per meeting site.
+
+
+I wanted to include an option for the user. I think it is equally important to be able to sort through meetings based on location and by date. I think there are two types of meetings, one you need to go to weekly and one you need to go to ASAP. This allows the user to find a local meeting to make time for throughout the week and allows the user to find the next available meeting even if its a few subway stops away.
+
+
 
 * How/where to download your program
 * Any modifications needed to be made to files/folders
