@@ -59,6 +59,12 @@ command to run if program contains helper info
 
 ## References
 
+https://gopinkcloud.com/aa-meetings-nyc.html
+
+https://www.gethealthyheights.org/service/new-york-inter-group-association-alcoholics-anonymous-new-york
+
+https://www.randymajors.org/zipcodegmap
+
 Contributors names and contact info
 
 ex. Dominique Pizzie  
