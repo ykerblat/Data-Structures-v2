@@ -23,7 +23,6 @@ To ensure the correct data is adequately inserted and well structured, the cTabl
 
 <img width="477" alt="Screen Shot 2021-12-23 at 16 29 48" src="https://user-images.githubusercontent.com/82052220/147310621-1518042d-7e37-49e1-9cea-ec62102eff70.png">
 
-
 ### Preliminary design
 
 <strong> Step 4:</strong> Below is a sample of what I had in mind for this application. 
