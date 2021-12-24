@@ -60,39 +60,31 @@ musicalEntries.push(new MusicDiscovery("sessionDay", "Thursday", 'October 7, 202
 ```
 
 Below is a sample query - as shown in the console:
-![image](https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png)
 
 <img src="https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png" width="500" height="auto">
-
-
-<img width="477" src="https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png">
-
 
 Finally, to make sure all the data was correctly exported/imported, we can use DynamoDB to confirm that the process blog table has been aptly filled in - see below.
 ![image](https://user-images.githubusercontent.com/82052220/147319410-5cb72e03-8b39-43fd-9d5e-9f56a43a50eb.png)
 
-
 ### Preliminary design
+
+This is the inital design of how I had thought about the process blog - see below:
 
 ![Process blog](https://user-images.githubusercontent.com/82052220/147321304-c03cee28-1973-476a-8097-d41fed82da5d.png)
 
+Similar to the AA meeting process, what was important for me in this preliminary work is to think about methods that enable the user to quickly filter, explore, sort different dataseets on a given interface that is able to update information on a regular basis whilst displaying simultaneously quantitative and qualitative ratings of specific songs.
 
+### High-Res Mockups/Prototyping
 
-### Mockups/Prototyping
+This is a sample of the revised "musical exploration" dashboard that I designed. This dashboard provides information on my listening record on a yearly basis and is expected to hold a relatively large datasets. Hover and click are two forms of interface that will help the user to better understand the proposed data vizualisation. With more consistent colors, minimal layout and the wide range of datasets, I tried to make this site to be as stimulating and dynamic as possible.
 
-<!-- Similar to the AA meeting process, what is important in this conceptual work is to provide the user the ability to filter, explore, sort different dataseets on an interface that is able to update information on a regular basis whilst displaying quantitative and qualitative ratings of song
+![Dashboard](https://user-images.githubusercontent.com/82052220/147323404-91ecd629-3142-460a-8c37-84aef34c09a3.jpg)
 
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+This revised music dashboard mockup was inspired by this existing [Figma sketch](https://www.figma.com/community/file/824970348782659324/Music-Dashboard).
 
 ## Further tasks for considerations 
 
-In the future, I would like to continue updating this database. I think it is a great place to store personal information and very helpful for me personally. This would be a great tool for anyone to have.
-
+I think there is some good potential with this of dashboard. I am keen to continue working on this project in this future, and I think the online streamining music industry is an excellent field for data visualization experimentations but also for practicing how to handle large datasets that need to be cleaned up, reorganized, etc. 
 
 ## References
 
