@@ -28,8 +28,7 @@ For this project, I'm using my Spotify "Discovery Weekly" playlist (which is a p
 
 
 
-### Data calibration via Dynamo DB
-
+### Data processing & calibration via Dynamo DB
 
 ```
 class MusicDiscovery {
@@ -64,6 +63,12 @@ musicalEntries.push(new MusicDiscovery("sessionNight", "Wednesday", 'July 6, 202
 musicalEntries.push(new MusicDiscovery("sessionDay", "Thursday", 'October 7, 2021 22:15:00', "Surfin'", "Ernest Ranglin", "Jamaica", '1990', "Reggae", '4'));
 ```
 
+![image](https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png)
+
+
+![image](https://user-images.githubusercontent.com/82052220/147319410-5cb72e03-8b39-43fd-9d5e-9f56a43a50eb.png)
+
+
 ### Preliminary design
 
 
@@ -81,22 +86,13 @@ code blocks for commands
 
 ## Further tasks for considerations 
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+In the future, I would like to continue updating this database. I think it is a great place to store personal information and very helpful for me personally. This would be a great tool for anyone to have.
+
 
 ## References
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Inspiration, technical references, code snippets, etc.
+* [Discovering your Music Taste with Python and Spotify API](https://laptrinhx.com/discovering-your-music-taste-with-python-and-spotify-api-2359421451/)
+* [Spotify Analytics Dashboard - sample](https://dribbble.com/shots/5407591-Spotify-Analytics)
+* [How to visualize Spotify music trends in Tableau](https://www.tableau.com/en-gb/about/blog/2019/7/how-visualize-spotify-music-trends-tableau)
+* [How to make a (Spotify) Excel Dashboard](https://www.youtube.com/watch?v=qwnHoaY2hEk&ab_channel=ThruDesign)
