@@ -40,23 +40,24 @@ From an information design perspective, what was important in this preliminary m
                     
 ### Mockups/Prototyping
 
-After rethinking the 'decision tree' and reviewing the several decision points for the user, I've decided to refine my preliminary design - see below.
+<strong> Step 5:</strong> Because the data cleaning took more time than anticipated, I decided to rethink the 'decision tree' and reviewed the several decision points for the user. As a result, I've decided to slightly refine my preliminary design to show what the application would look like if I had more time - see below for a higher-resolution design.
 
+<strong> Website landing page </strong> - on the website landing page, given COVID-19 circumstances, first the user needs to decides if he/she wants to explore online AA meetings vs. in-person AA meetings. On this page, we can also see all the possible meeting sites that provide this services (each site therefore corresponds to dedicated meeting time slots).
 ![Opening](https://user-images.githubusercontent.com/82052220/147291048-56d3b3c4-4e7f-44e1-bd2c-bf1fa78d3dee.png)
 
+<strong> Zipcode sub-selection </strong> In this image, we can imagine that the user decided to input geographical preferences ("Which zones/which postcodes need to be prioritized?") as well as temporal data ("Which time slots/which day of the week is more convenient?"). The user needs to decide if she/he wants to interact with 1, 2 or 3 of the suggested filters.
 ![Zipcode blur](https://user-images.githubusercontent.com/82052220/147291056-05cda89d-1cc3-4942-9558-047bcde9e6e9.png)
 
+<strong> Popup with more meeting info </strong> In this image, we can imagine that the user is browsing relevant meeting sites as well as meeting time slots. Once a given meeting site is clicked, further information about the meeting category, the building entrance/exit information, level of accessibility appears through a modal in order to provide further information.
 ![More info popup](https://user-images.githubusercontent.com/82052220/147291060-b3e8a03e-061e-4c47-9d10-4e22df4cc5c5.png)
-
 
 ## Further tasks for considerations 
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Initially, I had intended to design from scratch an interface that allowed filtering sorting, geographical exploring on a map based on the proposed design but I ran out of time and the data parsing proved to be more difficult than ancitipated. With more time and better troubleshooting capabilities, I think I could have produced this application.
 
 ## References
+
+The following websites for used for visual inspiration/design calibration:
 
 https://gopinkcloud.com/aa-meetings-nyc.html
 
@@ -64,16 +65,5 @@ https://www.gethealthyheights.org/service/new-york-inter-group-association-alcoh
 
 https://www.randymajors.org/zipcodegmap
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 
 
