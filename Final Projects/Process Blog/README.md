@@ -59,9 +59,10 @@ musicalEntries.push(new MusicDiscovery("sessionNight", "Wednesday", 'July 6, 202
 musicalEntries.push(new MusicDiscovery("sessionDay", "Thursday", 'October 7, 2021 22:15:00', "Surfin'", "Ernest Ranglin", "Jamaica", '1990', "Reggae", '4'));
 ```
 
+Below is a sample query - as shown in the console:
 ![image](https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png)
 
-
+Finally, to make sure all the data was correctly exported/imported, we can use DynamoDB to confirm that the process blog table has been aptly filled in - see below.
 ![image](https://user-images.githubusercontent.com/82052220/147319410-5cb72e03-8b39-43fd-9d5e-9f56a43a50eb.png)
 
 
