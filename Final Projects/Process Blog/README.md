@@ -62,7 +62,7 @@ musicalEntries.push(new MusicDiscovery("sessionDay", "Thursday", 'October 7, 202
 Below is a sample query - as shown in the console:
 ![image](https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png)
 
-<img src="https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f" width="500" height="auto">
+<img src="https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png" width="500" height="auto">
 
 
 <img width="477" src="https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png">
