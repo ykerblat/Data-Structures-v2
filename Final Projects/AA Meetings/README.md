@@ -28,13 +28,20 @@ Below is a sample of what I had in mind for this application.
 
 ![AA - meetings](https://user-images.githubusercontent.com/82052220/147291103-ffc1751d-8af3-4d67-af44-ee9d612617fa.png)
 
+In terms of assumptions/parameters, I was hoping to use a city-level map of Manhattan for the user to see all the potential meetings that are listed as well their corresponding locations. P**SSSS**
+
+In the right-hand side column, the use can opt for 1, 2 or 3 sets of filters/check boxes (together or separately) - which are used to structure the initial quert. **First**, the user needs to determine if a given target zone (1 target zone corresponds to specific zipcodes across NYC) is sufficiently important for structuring this query. **Second**, the desired day of the week can opted or not thanks to a check box. And then finally, **third**, with the use of a double-edged slider, the viewer _can_ interact with this slide if she/he needs to restrict down the query to a given time slow. One or several of these previously-listed filters can be opted for this query, while the map will project the relevant geogreferenced meetings sites. **Finally**, a click on a given node on the map will provide additional information per meeting site (and by extension for each listed meeting).
+                    
+
+I wanted to include an option for the user. I think it is equally important to be able to sort through meetings based on location and by date. I think there are two types of meetings, one you need to go to weekly and one you need to go to ASAP. This allows the user to find a local meeting to make time for throughout the week and allows the user to find the next available meeting even if its a few subway stops away.
+
+
 
 From an information design perspective, what was important in this preliminary mockup are the following items:
 * I
 * 
 
 
-I am hoping to use a city-level map of Manhattan to display the active meetings and their corresponding locations. On right-hand side column, there is a hierarchy of filters/check boxes that the user can use to narrow the query. First, the viewer could filter out the target zone (and its respective zipcodes assigned to each zone), followed by the desire days of the week (multiple choices possible). Finally, a double-entry slider is added at the end in case the viewer needs to also narrow down specific time slots. Once 1 or many of these filters are activated, the map will display the georeferenced meeting sites, and a click will provde additional information per meeting site.
 
 
 
@@ -42,6 +49,9 @@ I am hoping to use a city-level map of Manhattan to display the active meetings 
 * Any modifications needed to be made to files/folders
 
 ### Mockups/Prototyping
+
+
+After rethinking the 'decision tree' and reviewing the several decision points for the user, I've decided to refine my preliminary design - see below.
 
 ![Opening](https://user-images.githubusercontent.com/82052220/147291048-56d3b3c4-4e7f-44e1-bd2c-bf1fa78d3dee.png)
 
