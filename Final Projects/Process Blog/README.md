@@ -23,8 +23,7 @@ At the beginning, I had unclear/fuzzy data schemes but after getting familiar wi
 
 ### Data processing & calibration via Dynamo DB
 
-Thanks to the starter code, I am able to put together a data entry method to insert the adequate and required data points. Once this method was ready to be used and able to contain string, integers and boolean values, I connected to the AWS Dynamo DB to carefully store this information. 
-
+Thanks to the starter code, I am able to put together a data entry method to insert the adequate and required data points into a given table format (see below). Once this method was ready to be used and able to contain string, integers and boolean values, I connected to the AWS Dynamo DB to carefully store this information. 
 
 ```
 class MusicDiscovery {
@@ -52,13 +51,13 @@ class MusicDiscovery {
   }
 }
 ```
+Based on the following table setup, I was able to insert specific types of variables:
 
 ```
 musicalEntries.push(new MusicDiscovery("sessionDay", "Tuesday", 'April 5, 2021 22:15:00', "Daily Battles", "Wynton Marsalis et al", "USA", '2010', "Funky Jazz", '4'));
 musicalEntries.push(new MusicDiscovery("sessionNight", "Wednesday", 'July 6, 2021 22:15:00', "Sunday Sermon", "Booker T & the MGs'", "USA", '1990', "Eclectic Jazz", '3'));
 musicalEntries.push(new MusicDiscovery("sessionDay", "Thursday", 'October 7, 2021 22:15:00', "Surfin'", "Ernest Ranglin", "Jamaica", '1990', "Reggae", '4'));
 ```
-I was able to insert specific types of variables into the AWS Dynamo DB - based on the following table setupe:
 
 ![image](https://user-images.githubusercontent.com/82052220/147319366-4f7f1b07-1401-460a-92b2-0c3453749f3f.png)
 
