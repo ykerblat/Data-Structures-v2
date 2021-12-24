@@ -1,7 +1,7 @@
 # AA Meetings project
 ### by Yann Kerblat
 
-Objective:  The objective of this project was to scrape, extract and re-format all the data from the previous AA website and re-calibrate the interface into a more intuitive and user-friendly application.
+<strong>Objective</strong> The objective of this project was to scrape, extract and re-format all the data from the previous NYC Anonymous Alcoholics (AA) website and re-calibrate the interface into a more intuitive, dynamic, and user-friendly application.
 
 ## Instructions
 
@@ -51,11 +51,9 @@ From an information design perspective, what was important in this preliminary m
 <strong> Popup with more meeting info </strong> In this image, we can imagine that the user is browsing relevant meeting sites as well as meeting time slots. Once a given meeting site is clicked, further information about the meeting category, the building entrance/exit information, level of accessibility appears through a modal in order to provide further information.
 ![More info popup](https://user-images.githubusercontent.com/82052220/147291060-b3e8a03e-061e-4c47-9d10-4e22df4cc5c5.png)
 
-## Further tasks for considerations 
 
 Initially, I had intended to design from scratch an interface that allowed filtering sorting, geographical exploring on a map based on the proposed design but I ran out of time and the data parsing proved to be more difficult than ancitipated. With more time and better troubleshooting capabilities, I think I could have produced this application.
 
-## References
 
 The following websites for used for visual inspiration/design calibration:
 
