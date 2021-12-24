@@ -11,9 +11,11 @@ Objective:  The objective of this project was to scrape, extract and re-format a
 
 ### Data parsing
 
-<strong> Step 1:</strong> Parsing through the aa websites, geographical AA meeting locations (referred as "addresses" in this/previous documentation) and meeting information were extracted. Thanks to the [TAMU API](https://geoservices.tamu.edu/Services/Geocode/WebService/), we are able to georeference each each AA meeting locations by matching these with site-specfiic, precise lat-long coordinates to facilitate the mapping on a given map. This information was then encoded into a PostGresQL database via Cloud9 (AWS).
+<strong> Step 1:</strong> Parsing through the aa websites, geographical AA meeting locations (referred as "addresses" in this/previous documentation) and meeting information were extracted. 
 
-The following code is used to structure the SQL query to select the data preiously extracted from the original AA website, and insert it in a DB table - see below.
+<strong> Step 2:</strong> Thanks to the [TAMU API](https://geoservices.tamu.edu/Services/Geocode/WebService/), we are able to georeference each each AA meeting locations by matching these with site-specfiic, precise lat-long coordinates to facilitate the mapping on a given map. This information was then encoded into a PostGresQL database via Cloud9 (AWS).
+
+<strong> Step 3:</strong>The following code is used to structure the SQL query to select the data preiously extracted from the original AA website, and insert it in a DB table - see below.
 
 <img src="https://user-images.githubusercontent.com/82052220/147167267-d706acfd-d932-4bf5-8301-05aa344db75f.png" width="500" height="auto">
 
@@ -24,32 +26,19 @@ To ensure the correct data is adequately inserted and well structured, the cTabl
 
 ### Preliminary design
 
-Below is a sample of what I had in mind for this application. 
+<strong> Step 4:</strong> Below is a sample of what I had in mind for this application. 
 
 ![AA - meetings](https://user-images.githubusercontent.com/82052220/147291103-ffc1751d-8af3-4d67-af44-ee9d612617fa.png)
 
-In terms of assumptions/parameters, I was hoping to use a city-level map of Manhattan for the user to see all the potential meetings that are listed as well their corresponding locations. P**SSSS**
+In terms of assumptions/parameters, I was hoping to use a city-level map of Manhattan for the user to visualize all the potential meetings that are listed as well their corresponding locations. In this design, it is important for the user to review AA meeting options based on location but also based on date/time since we assume that user either need to attend periodic, regular AA meetings (option prioritizing long-term needs) but also to locate the next available meeting (option prioritizing ASAP needs). 
 
-In the right-hand side column, the use can opt for 1, 2 or 3 sets of filters/check boxes (together or separately) - which are used to structure the initial quert. **First**, the user needs to determine if a given target zone (1 target zone corresponds to specific zipcodes across NYC) is sufficiently important for structuring this query. **Second**, the desired day of the week can opted or not thanks to a check box. And then finally, **third**, with the use of a double-edged slider, the viewer _can_ interact with this slide if she/he needs to restrict down the query to a given time slow. One or several of these previously-listed filters can be opted for this query, while the map will project the relevant geogreferenced meetings sites. **Finally**, a click on a given node on the map will provide additional information per meeting site (and by extension for each listed meeting).
+From an information design perspective, what was important in this preliminary mockup are the following items. In the right-hand side column, the user can opt for 1, 2 and/or 3 sets of filters/check boxes (together or separately) - which are used to structure the initial quert. 
+* **First**, the user needs to determine if a given target zone (1 target zone corresponds to specific zipcodes across NYC) is sufficiently important for structuring this query. 
+* **Second**, the desired day of the week can opted or not thanks to a check box. 
+* **Third**, with the use of a double-edged slider, the viewer _can_ interact with this slide if she/he needs to restrict down the query to a given time slow. One or several of these previously-listed filters can be opted for this query, while the map will project the relevant geogreferenced meetings sites. 
+*  **Finally**, a click on a given node on the map will provide additional information per meeting site (and by extension for each listed meeting).
                     
-
-I wanted to include an option for the user. I think it is equally important to be able to sort through meetings based on location and by date. I think there are two types of meetings, one you need to go to weekly and one you need to go to ASAP. This allows the user to find a local meeting to make time for throughout the week and allows the user to find the next available meeting even if its a few subway stops away.
-
-
-
-From an information design perspective, what was important in this preliminary mockup are the following items:
-* I
-* 
-
-
-
-
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
 ### Mockups/Prototyping
-
 
 After rethinking the 'decision tree' and reviewing the several decision points for the user, I've decided to refine my preliminary design - see below.
 
